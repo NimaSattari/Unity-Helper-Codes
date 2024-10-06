@@ -3,7 +3,7 @@ using UnityEngine;
 public class PersistentObjectSpawner : MonoBehaviour
 {
     // CONFIG DATA
-    [Tooltup("This Prefab will only be spawned once and persisted between scenes.")]
+    [Tooltip("This Prefab will only be spawned once and persisted between scenes.")]
     [SerializeField] GameObject presistantObjectPrefab = null;
 
     // PRIVATE STATE
